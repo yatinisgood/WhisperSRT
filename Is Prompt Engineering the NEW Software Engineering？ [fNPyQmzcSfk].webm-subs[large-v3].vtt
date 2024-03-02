@@ -1,0 +1,425 @@
+WEBVTT
+
+00:00.000 --> 00:03.600
+Is prompt engineering really going to take over software engineering?
+
+00:03.600 --> 00:08.720
+Well, for one thing, the president and co-founder of NVIDIA says this is going
+to happen.
+
+00:08.720 --> 00:12.960
+Okay, let me explain. Jensen Huang, who is the president and co-founder of
+NVIDIA,
+
+00:12.960 --> 00:16.480
+recently went on to the World Government Summit in Dubai and here's what he
+said.
+
+00:16.480 --> 00:20.320
+He said that his statement that he was about to share is what most tech
+influential people
+
+00:20.320 --> 00:24.640
+have said over the last 10 or 15 years, which is that everyone, especially kids,
+
+00:24.640 --> 00:27.600
+should learn how to code. So here's what he said though. He goes on to say,
+
+00:27.600 --> 00:31.680
+it is our job to create computing technology that nobody has to program
+
+00:31.680 --> 00:35.200
+and that the programming language is human. Then he goes on to say,
+
+00:35.200 --> 00:39.360
+everyone in the world is now a programmer. This is the miracle of AI.
+
+00:39.360 --> 00:42.560
+All right, before we dive into this topic further and really break down,
+
+00:42.560 --> 00:46.320
+is software engineering getting replaced by prompt engineering? Make sure to hit
+
+00:46.320 --> 00:52.240
+the subscribe button for more tech, future tech, career, all the above topics
+and leave in the
+
+00:52.240 --> 00:56.640
+comments any other questions or topics you want me to cover. All right, now
+let's get into it.
+
+00:57.600 --> 01:03.040
+This is a really bold statement to make. And I think a lot of people,
+
+01:03.040 --> 01:07.040
+if you are someone who is learning to code or just getting into tech, it will
+feel very
+
+01:07.040 --> 01:11.520
+discouraging because of this statement. I mean, I know for myself, when I was
+learning how to code,
+
+01:11.520 --> 01:17.840
+I was doing so during the boom of coding, if you will, meaning it was just
+endless opportunities
+
+01:17.840 --> 01:21.680
+and possibilities with this skill. And it was one of the hardest things I had to
+learn,
+
+01:21.680 --> 01:27.440
+but it was so rewarding. Now to see that this skill is something that might not
+be learned or
+
+01:27.440 --> 01:34.160
+as valuable, or people don't tout as people don't look up as this really great
+skill.
+
+01:34.160 --> 01:38.480
+It really brings a lot of different emotions my way. Now I'm going to keep my
+emotions out of
+
+01:38.480 --> 01:42.640
+this video and really dive into the facts. So if you are someone who is learning
+how to code,
+
+01:42.640 --> 01:47.040
+getting into tech, or maybe you are an engineer, this video is for you. Now
+let's start off with
+
+01:47.040 --> 01:52.000
+the obvious. Jensen is not the first individual, especially of a high caliber to
+be sharing these
+
+01:52.000 --> 01:56.000
+statements. But for some reason, this time it felt different. I've heard a lot
+of these statements
+
+01:57.440 --> 02:01.760
+of how AI is going to take over programming, and I never really paid much
+attention to it.
+
+02:01.760 --> 02:06.400
+But this statement from him, I think it's because it feels so different because
+we are at a time
+
+02:06.400 --> 02:11.120
+where we can see that this could become a reality. Now here's the thing. I don't
+want this video to
+
+02:11.120 --> 02:15.760
+dissuade anyone or discourage anyone from learning to code. There is going to be
+some really great
+
+02:15.760 --> 02:20.640
+opportunities for you still, if you are in that boat. But what I think is a
+bigger question here,
+
+02:20.640 --> 02:24.160
+and what we really should look at rather than should you learn how to code
+anymore,
+
+02:24.160 --> 02:27.040
+or should you not learn how to code anymore, is what this
+
+02:27.440 --> 02:31.840
+bigger picture here. Let's take a step back. I was going to take a step back
+literally,
+
+02:31.840 --> 02:36.480
+but the chair is in the way. And really say, see, what exactly does this mean?
+Well, for one thing,
+
+02:36.480 --> 02:41.760
+it means we are coming into a period of time that's never been done in history
+before where
+
+02:41.760 --> 02:46.880
+technology is advancing quicker than we can keep up with it. We are not able to
+keep up on a daily
+
+02:46.880 --> 02:51.600
+basis with the tech advancements anymore as humans. So yes, that can sound a
+little bit scary
+
+02:51.600 --> 02:56.800
+on one hand, but on the other hand, what it really is showing is you need to not
+be comfortable in
+
+02:57.440 --> 03:01.520
+your role, in your current skill sets, but being open to continue to evolve.
+
+03:01.520 --> 03:05.760
+All right, Tiff, can you just cut to the chase? Is prompt engineering going to
+replace software
+
+03:05.760 --> 03:10.000
+engineers? No, it's not, at least not for the foreseeable future, but things are
+going to change
+
+03:10.000 --> 03:15.440
+drastically. And I mean, we already see this with how much now we are using AI
+in our daily lives
+
+03:15.440 --> 03:20.400
+when coding. Think of tools like Copilot or different, even ChatGPT when you are
+coding,
+
+03:20.400 --> 03:25.520
+you are now able to go into these artificial intelligent chatbots and ask for
+help, get
+
+03:25.520 --> 03:27.420
+suggestions at a quicker rate than you would have if you were a software
+engineer. So, if you are
+
+03:27.440 --> 03:28.480
+a software engineer, you are going to be able to do this much faster than ever
+before.
+
+03:28.480 --> 03:33.360
+Let's start though by breaking down what exactly is a prompt engineer. At its
+core,
+
+03:33.360 --> 03:38.320
+prompt engineering focuses on creating and designing prompts that are given to
+AI models.
+
+03:38.320 --> 03:43.760
+I mean, we always talk about ChatGPT to really instruct them to have the desired
+outputs. So,
+
+03:43.760 --> 03:47.680
+why is this role important? I think at first it was really laughed at as, oh,
+this role is going
+
+03:47.680 --> 03:53.680
+to come and go, but the more we grow with AI, the more we can realize that this
+role is here to stay
+
+03:53.680 --> 03:56.880
+and becoming more and more important. What sets prompt engineers apart? Well,
+
+03:57.440 --> 04:02.080
+a lot of prompt engineers have a very strong background in machine learning or
+artificial
+
+04:02.080 --> 04:06.160
+intelligence. They are aware of how these models operate, how it will affect
+them,
+
+04:06.160 --> 04:10.800
+what they input into these models based on what they output and get, and they're
+very
+
+04:10.800 --> 04:14.880
+knowledgeable in that area. Now, that's not saying you have to have knowledge
+around machine learning
+
+04:14.880 --> 04:19.280
+or AI to become a prompt engineer, but at some level you do need to start diving
+into it.
+
+04:19.280 --> 04:23.200
+The other thing about prompt engineers is depending on what company they are
+working for,
+
+04:23.200 --> 04:27.280
+they usually are specialists within that industry. So, for example, prompt
+engineering is something
+
+04:27.440 --> 04:31.920
+that is widely used within the health industry. And if you are a prompt engineer
+working in health
+
+04:31.920 --> 04:37.280
+and trying to diagnose someone or have some understanding as to what ailments
+they have,
+
+04:37.280 --> 04:42.080
+you need to also have an understanding as to the health side of this industry.
+You can't just be
+
+04:42.080 --> 04:46.160
+this technical person. Okay, so here is the role of a prompt engineer broken
+down pretty simply
+
+04:46.160 --> 04:51.280
+for you. So, one, you have to design effective prompts. Two, refine and
+optimize, so continuously
+
+04:51.280 --> 04:56.000
+test and refine your prompts to ensure you're getting the best output. Number
+three is customize
+
+04:57.440 --> 05:01.440
+your prompts to fit particular projects or industries. This is kind of what we
+spoke to
+
+05:01.440 --> 05:06.560
+a little bit earlier, that you need to be, to some degree, an expert in that
+field. And number four
+
+05:06.560 --> 05:11.920
+is monitor outputs. So, ensure that the outputs are what is expected, that the
+AI model isn't
+
+05:11.920 --> 05:16.800
+hallucinating, and there isn't anything else weird going on there. All right, so
+let's take a look at
+
+05:16.800 --> 05:21.600
+how artificial intelligence has already impacted software engineering. Well, for
+one thing, we
+
+05:21.600 --> 05:26.480
+mentioned earlier, now we have code assistants. So, we have things such as
+Copilot, who will now
+
+05:26.480 --> 05:27.120
+write out tire intelligence. So, we have things such as Copilot, who will now
+write out tire
+
+05:27.120 --> 05:28.640
+intelligence. So, we have things such as Copilot, who will now write out entire
+functions, entire
+
+05:28.640 --> 05:34.080
+files for you or with you. The next is debugging and code review. Now, we have
+tools that can help
+
+05:34.080 --> 05:38.240
+you debug and also review your code, which is super helpful if you are someone
+who is working
+
+05:38.240 --> 05:43.360
+on a team. Next up, we have tools to automate documentation. I mean,
+documentation is probably
+
+05:43.360 --> 05:47.680
+one of the worst parts of software engineering, in my opinion, anyways. Who
+wants to deal with
+
+05:47.680 --> 05:52.640
+documentation? But having AI to help write documentation for you based on your
+code
+
+05:52.640 --> 05:56.160
+is a game changer. One of the tools I actually used,
+
+05:57.120 --> 06:02.160
+quite a while ago and love, not sponsored, just shouting them out, is Swim. So,
+Swim will actually
+
+06:02.160 --> 06:07.440
+help generate documentation based on your files in your GitHub, which is, it's
+really cool.
+
+06:07.440 --> 06:12.320
+Anyway, so that's already exists too. Next is ideation and problem solving. So,
+
+06:12.320 --> 06:16.800
+providing new approaches or algorithms for solving complex problems. I mean,
+
+06:16.800 --> 06:21.360
+what is left for programmers? We just went through everything that AI can do.
+The reality is,
+
+06:21.360 --> 06:26.960
+even if prompt engineering takes over software engineering, which, let's do a
+side note here,
+
+06:26.960 --> 06:30.320
+doesn't mean software engineering doesn't exist. We're not having that
+conversation. Of course,
+
+06:30.320 --> 06:36.240
+it's going to exist. Say prompt engineering does grow and become more in demand
+than a role like
+
+06:36.240 --> 06:41.360
+software engineers. The reality is, A, if you are a software engineer growing
+into a prompt
+
+06:41.360 --> 06:46.160
+engineering role, or even staying in your software engineering role, it will
+just start looking
+
+06:46.160 --> 06:50.720
+different over time. We are in the weeds with this. We're not going to see this
+happen directly
+
+06:50.720 --> 06:54.720
+overnight. Although it does feel like it's happening very quickly. It's more so
+being able
+
+06:54.720 --> 06:56.640
+to use these AI tools, implement AI tools, and use them to solve complex
+problems. So,
+
+06:56.640 --> 07:00.480
+implement it into your workflow, and you are going to be fine. Going back to
+what the president
+
+07:00.480 --> 07:05.200
+and co-founder of Nvidia said, he also goes on to say that it's important for
+people to learn
+
+07:05.200 --> 07:09.600
+how to use generative AI. So, it will be vital that we upskill everyone. And the
+upskilling
+
+07:09.600 --> 07:14.560
+process, I will be delightful and surprising. He's very optimistic. But to his
+point,
+
+07:14.560 --> 07:18.880
+it is going to be more and more vital that we continue to get more comfortable
+with these
+
+07:18.880 --> 07:23.360
+generative AI tools versus saying, we are too good for them. We're not going to
+use them.
+
+07:23.360 --> 07:26.480
+The reality is they are here and they're here to stay. Okay. So,
+
+07:26.640 --> 07:31.040
+to the chase, is prompt engineering going to overtake software engineering?
+There will always
+
+07:31.040 --> 07:35.440
+be a place for software engineers and there will always be a place for prompt
+engineers. But I do
+
+07:35.440 --> 07:39.920
+see that these two roles will merge closer and closer together. I mean, prompt
+engineering will
+
+07:39.920 --> 07:44.000
+merge with many different roles. And I do believe software engineering is one of
+them. All right.
+
+07:44.000 --> 07:47.920
+I'm curious to hear, do you agree with my thoughts? Do you disagree? I try and
+stay
+
+07:47.920 --> 07:51.920
+pretty neutral on this because the reality is we don't know what we don't know.
+And the
+
+07:51.920 --> 07:56.400
+most important takeaway is being open to continuous learning and not...
+
+07:57.520 --> 08:02.080
+freaking out like that meme where the dog is standing with a cup and
+everything's blowing
+
+08:02.080 --> 08:05.840
+up around him. All right. Thank you all for watching and make sure to hit that
+subscribe
+
+08:05.840 --> 08:20.400
+button for more tech, future tech, news, all of the above. And I'll see you
+soon. Thanks everyone.
+
