@@ -1,0 +1,634 @@
+1
+00:00:00,000 --> 00:00:04,120
+We are coming to you with a new episode of tech news that happened this past
+week.
+
+2
+00:00:04,240 --> 00:00:07,980
+Let me tell you, this past week was one that you really had to hold on for.
+
+3
+00:00:08,060 --> 00:00:11,140
+It was kind of, scratch kind of, it was wild.
+
+4
+00:00:11,320 --> 00:00:15,660
+Elon Musk, of course, was in a lot of headlines from open sourcing his upcoming
+AI,
+
+5
+00:00:15,820 --> 00:00:18,340
+which we'll get into, to suing OpenAI.
+
+6
+00:00:18,840 --> 00:00:22,000
+I mean, him alone, we can make a video on, but we're not going to.
+
+7
+00:00:22,180 --> 00:00:23,060
+We will cover that though.
+
+8
+00:00:23,360 --> 00:00:26,540
+There are so many other things that you need to be aware of that happened in
+tech
+
+9
+00:00:26,540 --> 00:00:29,980
+this past week around AI, coding, tech, and more.
+
+10
+00:00:30,460 --> 00:00:32,400
+All right, let's get into it.
+
+11
+00:00:32,480 --> 00:00:33,420
+What do the young kids say?
+
+12
+00:00:33,540 --> 00:00:35,440
+Let's get into spilling the tea.
+
+13
+00:00:35,900 --> 00:00:37,120
+Oh, that's so cheesy.
+
+14
+00:00:37,960 --> 00:00:39,000
+You get what I mean though.
+
+15
+00:00:42,080 --> 00:00:44,300
+Let's start off with, as I mentioned, Elon Musk.
+
+16
+00:00:44,420 --> 00:00:47,120
+And this week, actually today, as I am filming this,
+
+17
+00:00:47,340 --> 00:00:51,680
+he recently announced that his chatbot, Grok, is going to be open source.
+
+18
+00:00:51,840 --> 00:00:54,840
+Now this is different because a lot of the other chatbots we have seen,
+
+19
+00:00:54,840 --> 00:00:57,780
+such as Gemini, let's go into, is not open source.
+
+20
+00:00:57,880 --> 00:00:59,940
+So the fact that this is going to be open source,
+
+21
+00:01:00,060 --> 00:01:03,640
+for the public to gain access to, is, well, huge.
+
+22
+00:01:03,800 --> 00:01:04,640
+But let me explain why.
+
+23
+00:01:04,840 --> 00:01:08,120
+By open sourcing his chatbot, here's what I would really do for people.
+
+24
+00:01:08,300 --> 00:01:10,640
+One, it would be to see what is going on behind the scenes.
+
+25
+00:01:10,960 --> 00:01:13,380
+What exactly is this code made up of?
+
+26
+00:01:13,460 --> 00:01:16,440
+What is this large language model made up of?
+
+27
+00:01:16,640 --> 00:01:21,600
+It will really promote transparency, open web, all this around AI,
+
+28
+00:01:21,680 --> 00:01:22,740
+which we have yet to see.
+
+29
+00:01:22,880 --> 00:01:24,000
+This could go in two ways.
+
+30
+00:01:24,000 --> 00:01:25,220
+One, being very positive.
+
+31
+00:01:25,320 --> 00:01:27,840
+People have access to this information, build upon it,
+
+32
+00:01:27,920 --> 00:01:29,620
+and have a better understanding.
+
+33
+00:01:30,000 --> 00:01:32,100
+This could be a great way to build these chatbots,
+
+34
+00:01:32,200 --> 00:01:35,100
+which in turn, better educated, makes informed decisions.
+
+35
+00:01:35,200 --> 00:01:37,800
+On the other side though, it could do a bit of the opposite,
+
+36
+00:01:37,900 --> 00:01:40,500
+whereas, yes, we have this information, we know how they work.
+
+37
+00:01:40,600 --> 00:01:43,500
+What could we do now with this information being open source?
+
+38
+00:01:43,600 --> 00:01:45,800
+Now I think this side, there's less to fear about.
+
+39
+00:01:45,900 --> 00:01:49,000
+I mean, if it's open source, I am sure they have their bases covered
+
+40
+00:01:49,100 --> 00:01:52,800
+that what they are sharing in the open source community is fine to be sharing.
+
+41
+00:01:52,900 --> 00:01:55,860
+But it does bring up this major question, which is,
+
+42
+00:01:55,960 --> 00:01:59,860
+should chatbots like Grok, like Gemini, like ChatGPT,
+
+43
+00:01:59,860 --> 00:02:00,660
+be open source?
+
+44
+00:02:00,760 --> 00:02:01,960
+What do you think about this?
+
+45
+00:02:02,060 --> 00:02:02,960
+Leave in the comments.
+
+46
+00:02:03,060 --> 00:02:06,260
+All right, keeping up with Elon Musk, this is our last one, I promise.
+
+47
+00:02:06,360 --> 00:02:07,260
+So if you love him, great.
+
+48
+00:02:07,360 --> 00:02:09,060
+If you hate him, still good to be informed.
+
+49
+00:02:09,160 --> 00:02:11,860
+Which is this week, he sued OpenAI.
+
+50
+00:02:11,960 --> 00:02:15,460
+I mean, yes, he is the master of headline generators,
+
+51
+00:02:15,560 --> 00:02:18,160
+but it's really important to understand why he did this.
+
+52
+00:02:18,260 --> 00:02:19,960
+And when you realize why he did this,
+
+53
+00:02:20,060 --> 00:02:23,460
+it kind of makes you question everything about OpenAI,
+
+54
+00:02:23,560 --> 00:02:24,560
+at least to certain degrees.
+
+55
+00:02:24,660 --> 00:02:29,060
+He sued OpenAI because they did not, according to him or apparently,
+
+56
+00:02:29,140 --> 00:02:29,760
+what he is saying,
+
+57
+00:02:29,860 --> 00:02:32,560
+is they did not keep up with their promise or mission
+
+58
+00:02:32,660 --> 00:02:35,760
+to remain nonprofit and open source.
+
+59
+00:02:35,860 --> 00:02:39,060
+So when you really start to think about why he did this,
+
+60
+00:02:39,160 --> 00:02:41,860
+I don't think he really thinks in his heart of hearts
+
+61
+00:02:41,960 --> 00:02:43,860
+that anything will come from suing them.
+
+62
+00:02:43,960 --> 00:02:48,460
+But I do believe he is very aware that the media would gain onto this.
+
+63
+00:02:48,560 --> 00:02:52,660
+And then in turn, us as consumers and individuals would take a look at,
+
+64
+00:02:52,760 --> 00:02:55,460
+oh, wait, yeah, OpenAI really isn't that open source.
+
+65
+00:02:55,560 --> 00:02:58,760
+It isn't really not for profit, which is really interesting to look at.
+
+66
+00:02:58,860 --> 00:02:59,460
+Now, another thing
+
+67
+00:02:59,460 --> 00:03:03,560
+that's really important to note here is Elon Musk is coming for OpenAI.
+
+68
+00:03:03,660 --> 00:03:05,160
+I think this is really the tip of it.
+
+69
+00:03:05,260 --> 00:03:06,760
+The chatbot wars will continue,
+
+70
+00:03:06,860 --> 00:03:11,060
+especially now as he releases Grok compared to now chat with GPT,
+
+71
+00:03:11,160 --> 00:03:13,260
+compared to Gemini and others.
+
+72
+00:03:13,360 --> 00:03:14,460
+Okay, time for something different.
+
+73
+00:03:14,560 --> 00:03:15,160
+Let's switch gears here.
+
+74
+00:03:15,260 --> 00:03:18,860
+And I thought this was kind of, well, interesting to say the least,
+
+75
+00:03:18,960 --> 00:03:23,360
+which is Google employee is charged with stealing AI trade secrets.
+
+76
+00:03:23,460 --> 00:03:24,360
+Yes, you heard that right.
+
+77
+00:03:24,460 --> 00:03:27,560
+That's a really bold move, I have to say, on this employee's part.
+
+78
+00:03:27,660 --> 00:03:29,260
+Charged with stealing AI trade secrets.
+
+79
+00:03:29,460 --> 00:03:31,160
+All right, so what really happened here?
+
+80
+00:03:31,260 --> 00:03:32,760
+So this is a Google employee.
+
+81
+00:03:32,860 --> 00:03:36,660
+They were charged on Tuesday with stealing AI trade secrets from Google,
+
+82
+00:03:36,760 --> 00:03:39,860
+working with two Chinese-based companies in the AI industry.
+
+83
+00:03:39,960 --> 00:03:43,460
+So this individual, a 38-year-old who lives in California,
+
+84
+00:03:43,560 --> 00:03:49,060
+is accused of copying more than 500 files with confidential information from
+Google
+
+85
+00:03:49,160 --> 00:03:51,160
+into his own personal account.
+
+86
+00:03:51,260 --> 00:03:53,260
+This is a bold move.
+
+87
+00:03:53,360 --> 00:03:57,060
+I mean, this started, they say, back in 2022.
+
+88
+00:03:57,160 --> 00:03:58,460
+So this has been going on for a while.
+
+89
+00:03:58,460 --> 00:04:00,860
+And this isn't just like your typical case.
+
+90
+00:04:00,960 --> 00:04:03,160
+I feel like there might be a movie made out of this, because here's why.
+
+91
+00:04:03,260 --> 00:04:05,060
+Actually, the FBI were involved.
+
+92
+00:04:05,160 --> 00:04:06,960
+This is the level that this was getting to.
+
+93
+00:04:07,060 --> 00:04:10,960
+So Google goes on to say they have strict safeguards to prevent the theft
+
+94
+00:04:11,060 --> 00:04:13,960
+and are confidential commercial information and trade secrets.
+
+95
+00:04:14,060 --> 00:04:14,460
+Of course.
+
+96
+00:04:14,560 --> 00:04:18,260
+So here is this individual, 38 years old, working from home,
+
+97
+00:04:18,360 --> 00:04:22,060
+dealing with Google's trade secrets, putting them into his own computer.
+
+98
+00:04:22,160 --> 00:04:25,060
+Really curious, though, what was he doing with that information?
+
+99
+00:04:25,160 --> 00:04:26,260
+What was the end goal here?
+
+100
+00:04:26,360 --> 00:04:28,260
+That we don't know, but I do believe it will come out soon.
+
+101
+00:04:28,460 --> 00:04:30,260
+That's just something really interesting on the side.
+
+102
+00:04:30,360 --> 00:04:33,260
+I mean, listen, if you lack confidence, look at this individual.
+
+103
+00:04:33,360 --> 00:04:34,460
+Don't do what he's doing.
+
+104
+00:04:34,560 --> 00:04:37,060
+But the amount of confidence that would take to do.
+
+105
+00:04:37,160 --> 00:04:41,460
+All right, let's move into something not AI related, which is security,
+cybersecurity.
+
+106
+00:04:41,560 --> 00:04:42,460
+This is pretty interesting.
+
+107
+00:04:42,560 --> 00:04:47,660
+Russian hackers stole Microsoft's source code, and they're saying the attack
+isn't over.
+
+108
+00:04:47,760 --> 00:04:48,560
+This is wild.
+
+109
+00:04:48,660 --> 00:04:49,360
+Listen to this.
+
+110
+00:04:49,460 --> 00:04:54,460
+Okay, so back in January this year, so what, two months ago, there was this big
+attack.
+
+111
+00:04:54,560 --> 00:04:56,860
+And we, I think a lot of us were familiar with this.
+
+112
+00:04:56,960 --> 00:04:58,060
+Microsoft had an attack.
+
+113
+00:04:58,060 --> 00:05:00,860
+From some Russian hackers, and it kind of went quiet after that.
+
+114
+00:05:00,960 --> 00:05:03,460
+We never really heard what happened to it or where it went.
+
+115
+00:05:03,560 --> 00:05:07,860
+Now, what is coming to light is they actually were able to gain access to some
+source code.
+
+116
+00:05:07,960 --> 00:05:10,860
+And this is where it affects you, potentially.
+
+117
+00:05:10,960 --> 00:05:14,060
+They also gained access to some customer secrets.
+
+118
+00:05:14,160 --> 00:05:14,860
+But here's the thing.
+
+119
+00:05:14,960 --> 00:05:19,160
+The reality is it's interesting when these hacks happen, whether it be through
+with Microsoft
+
+120
+00:05:19,260 --> 00:05:23,960
+or other major tech companies, they often are so quiet about it initially.
+
+121
+00:05:24,060 --> 00:05:27,760
+Which I get why, but as a consumer, it's one of those things that then later
+
+122
+00:05:27,760 --> 00:05:31,160
+comes out in the news, or we see an article, and we're kind of not thinking
+about it,
+
+123
+00:05:31,260 --> 00:05:35,460
+that, oh, by the way, your data was impacted, or potentially impacted anyways.
+
+124
+00:05:35,560 --> 00:05:39,560
+And it can bring kind of an almost icky feeling, where if it was right when it
+happened,
+
+125
+00:05:39,660 --> 00:05:43,060
+transparent, this is going on, I think the public would react better.
+
+126
+00:05:43,160 --> 00:05:45,060
+So here is what was shared with Hacker News.
+
+127
+00:05:45,160 --> 00:05:49,560
+Microsoft's breach by Midnight Blizzard, the hacker group, is a strategic blow.
+
+128
+00:05:49,660 --> 00:05:52,660
+Midnight Blizzard isn't some small-time criminal gang.
+
+129
+00:05:52,760 --> 00:05:57,460
+They are highly professional, Russian-backed outfit that fully understands
+
+130
+00:05:57,760 --> 00:06:02,260
+the value of the data they've exposed, and how to best use it to inflict harm.
+
+131
+00:06:02,360 --> 00:06:03,560
+So this is really interesting.
+
+132
+00:06:03,660 --> 00:06:06,160
+This is far from over, but it's something to be very aware of.
+
+133
+00:06:06,260 --> 00:06:10,060
+And as you are keeping up to date with tech news, keeping that hack in mind,
+
+134
+00:06:10,160 --> 00:06:11,760
+just to see where it ends up going.
+
+135
+00:06:11,860 --> 00:06:14,960
+All right, those are some of the biggest things to happen in tech this past
+week.
+
+136
+00:06:15,060 --> 00:06:16,260
+It was, I mean, big.
+
+137
+00:06:16,360 --> 00:06:20,160
+I got to say, Elon Musk does take the cake, the win, whatever you want to call
+it,
+
+138
+00:06:20,260 --> 00:06:23,360
+for really keeping up in the media and news.
+
+139
+00:06:23,460 --> 00:06:24,660
+There was some wild things.
+
+140
+00:06:24,760 --> 00:06:26,660
+But on that note, I'm curious to get your take.
+
+141
+00:06:26,760 --> 00:06:27,660
+How closely are you following this?
+
+142
+00:06:27,760 --> 00:06:30,960
+How are you following these different kind of tech news updates from Elon Musk
+
+143
+00:06:31,060 --> 00:06:33,460
+to security to hacking?
+
+144
+00:06:33,560 --> 00:06:34,860
+Where are you at with all this?
+
+145
+00:06:34,960 --> 00:06:38,660
+Do you enjoy being up to date with it in a very quick, concise video like this?
+
+146
+00:06:38,760 --> 00:06:42,660
+Leave in the comments, and I will always keep you up to date with the latest
+tech news,
+
+147
+00:06:42,760 --> 00:06:45,160
+updates, you know, all that good stuff.
+
+148
+00:06:45,260 --> 00:06:47,260
+So you don't have to read and spend all your time doing so.
+
+149
+00:06:47,360 --> 00:06:48,760
+Oh, and hit that subscribe button.
+
+150
+00:06:48,860 --> 00:06:49,960
+All right, see you all soon.
+
+151
+00:06:57,760 --> 00:06:58,760
+Bye-bye.
+
+152
+00:06:58,860 --> 00:06:59,860
+Bye-bye.
+
+153
+00:06:59,960 --> 00:07:00,860
+Bye-bye.
+
+154
+00:07:00,960 --> 00:07:01,860
+Bye-bye.
+
+155
+00:07:01,960 --> 00:07:03,860
+Bye-bye.
+
