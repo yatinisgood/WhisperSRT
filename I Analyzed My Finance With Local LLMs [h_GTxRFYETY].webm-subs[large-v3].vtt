@@ -1,0 +1,742 @@
+WEBVTT
+
+00:00.080 --> 00:06.800
+as i get older i realize money is not everything but it's kind of almost
+everything so every year
+
+00:06.800 --> 00:12.720
+or every other year i download all my bank transactions and review my incomes
+and expenses
+
+00:12.720 --> 00:17.440
+the other day i came across someone who made this income and expense breakdown
+and i feel
+
+00:17.440 --> 00:23.120
+really inspired to do the same usually the most tricky thing in the process is
+to classify the
+
+00:23.120 --> 00:28.480
+expenses from my buying transactions into appropriate categories a lot of times
+i just
+
+00:28.480 --> 00:33.920
+use my manual labor or some low-tech ways to do that this year i decided to ask
+chat to pt
+
+00:33.920 --> 00:40.240
+to crunch the number for me and maybe tell me when i can retire only then to
+realize that i can't
+
+00:40.240 --> 00:46.320
+just upload my bank statement to chat tbt website it's all sensitive information
+about places i've
+
+00:46.320 --> 00:53.200
+been to shops i visited how much i spent on buying secret items and other
+personal data although
+
+00:53.200 --> 00:58.400
+using open ai apis may help still the data sent via the api is stored
+
+00:58.480 --> 01:05.280
+by openai for a duration of up to 30 days so eventually i decided to download
+and run an
+
+01:05.280 --> 01:10.480
+open source large language model locally on my laptop and the best thing yet
+they are free in
+
+01:10.480 --> 01:16.320
+this project video we do a few exciting things first we learn to install and run
+an lm for
+
+01:16.320 --> 01:23.600
+example llama 2 locally on our laptop then we use the lm to classify all the
+expenses in my
+
+01:23.600 --> 01:30.640
+bank statement into categories such as groceries rent travel and so on we then
+analyze the data in
+
+01:30.640 --> 01:36.720
+python and create some visualizations to show the main insights i shared all the
+codes on github so
+
+01:36.720 --> 01:41.440
+you can check out the github repo in the video description this video is
+sponsored by coursera
+
+01:41.440 --> 01:48.160
+coursera is running a discount with 200 off the coursera plus annual
+subscription if you sign
+
+01:48.160 --> 01:53.440
+up this is half the regular price for the whole year with this subscription you
+can get access
+
+01:53.440 --> 01:53.520
+to the course you can also use the course you can also use the course you can
+also use the course
+
+01:53.520 --> 01:53.600
+course you can also use the course you can also use the course you can also use
+the course you can also use
+
+01:53.600 --> 01:59.360
+to tons of courses and certificates in data analytics, including the Google Data
+Analytics
+
+01:59.360 --> 02:04.140
+and the Google Advanced Data Analytics Certificates. These certificates teach
+you
+
+02:04.140 --> 02:09.240
+all the fundamentals you need as a beginner in data analytics. So check out the
+offer below.
+
+02:09.380 --> 02:13.780
+There are a few different ways to run a large language model locally on your
+laptop,
+
+02:13.780 --> 02:19.800
+which means you can run the LLM without internet connection, without a third-
+party service like an
+
+02:19.800 --> 02:26.100
+API service or a website like ChatGPT. As you can imagine, this is secure if you
+want to protect
+
+02:26.100 --> 02:32.260
+your personal data, and it's free. There are now a few different frameworks
+developed to help us
+
+02:32.260 --> 02:38.900
+run an open-source language model locally on our own device. Some popular
+frameworks are LLM-CPP,
+
+02:39.240 --> 02:44.600
+GPT-4-0, and OLAMA. So you might be wondering, why the heck do we even need
+these frameworks?
+
+02:44.820 --> 02:49.780
+Remember how large language models are trained? They're basically the result of
+taking a huge
+
+02:49.780 --> 02:55.500
+amount of internet data and train a large neural network on it. And the model
+that comes out is
+
+02:55.500 --> 03:01.240
+basically a zip file with a bunch of numbers that represents the weights of all
+the parameters in
+
+03:01.240 --> 03:06.540
+the neural network. This model file can be quite large, depending on how many
+parameters the model
+
+03:06.540 --> 03:12.560
+has. So frameworks like OLAMA and LLAMA-CPP basically try to do two things. The
+first thing
+
+03:12.560 --> 03:17.920
+is quantization. It tries to reduce the memory footprint of the raw model
+weights. And the
+
+03:17.920 --> 03:19.760
+second thing is it makes it more efficient to run an open-source language model
+locally on your
+
+03:19.760 --> 03:27.800
+device. So if you have a Mac or Linux machine, I'd highly recommend installing
+OLAMA. It's super
+
+03:27.800 --> 03:32.660
+simple, and I'll show you in a bit. If you have a Windows machine, you can also
+run OLAMA through
+
+03:32.660 --> 03:38.740
+the Docker desktop. Okay, now let's go to OLAMA website. And here you can
+download OLAMA, which
+
+03:38.740 --> 03:45.000
+is available for Mac OS and Linux, and Windows will be coming soon. Also have a
+quick look at
+
+03:45.000 --> 03:49.520
+the list of models that are available. So here we have LLAMA 2, Maestro,
+
+03:49.760 --> 03:55.760
+we have a bunch of other code models. And so there's a lot of options here for
+you to try out.
+
+03:55.760 --> 04:02.540
+And if we click on any of them, we can see the description, also how to use API,
+what is the
+
+04:02.540 --> 04:07.400
+memory requirements, so how much RAM you need in your laptop in order to run
+these models.
+
+04:07.400 --> 04:13.580
+So let's download OLAMA and install it. It's very straightforward, just like
+installing any app on
+
+04:13.580 --> 04:19.400
+your laptop. So once we've installed OLAMA, we can start using it through our
+terminal. In order to
+
+04:19.760 --> 04:26.900
+do a language model locally through OLAMA, we just need to run the command
+OLAMAPOOL and then specify
+
+04:26.900 --> 04:33.020
+the model that you want to install. So for example, I will install again
+Maestro. It's pretty fast
+
+04:33.020 --> 04:38.300
+because I've already installed it last time. So and you can see here the model
+is around 4GB. So
+
+04:38.300 --> 04:44.120
+in order to use a model through a terminal, we just need to do OLAMA run
+Maestro. And here we
+
+04:44.120 --> 04:49.640
+can start typing our message or our prompt. So let's say hello, and the model
+replied with Hello,
+
+04:49.760 --> 04:55.100
+how can I help you today? Oh, so that's a lot of things. Okay, so I can ask
+something a little bit
+
+04:55.100 --> 05:00.860
+stupid. What's 2 plus 2? Okay, it comes back with quite an elaborate answer.
+Now, let's try another
+
+05:00.860 --> 05:07.700
+question. I want to see if it actually can do math properly. Let me ask what's
+this times this. Okay,
+
+05:07.700 --> 05:15.260
+wow, that's amazing. Okay, it even tries to teach me how to find the product of
+two large numbers
+
+05:19.760 --> 05:28.820
+so let me go to Google. Okay, so what I have here is around 426 billion.
+However, if I look at the
+
+05:28.820 --> 05:34.640
+result here, it's actually not correct. 45 million. You can check this result
+using a calculator to
+
+05:34.640 --> 05:39.680
+make sure it's correct. Well, I've checked it and it's not correct. I kind of
+have to say I'm
+
+05:39.680 --> 05:45.620
+impressed. But in terms of basic arithmetic, I think large language models out
+of the box are
+
+05:45.620 --> 05:49.340
+not probably not the best option. All right, the next thing we want to test,
+
+05:49.760 --> 05:55.280
+that is very important for this project, is whether the Maestro model can
+properly classify
+
+05:55.280 --> 06:01.160
+all the different expenses in my bank statement into different categories. So I
+just try out a
+
+06:01.160 --> 06:06.980
+prompt here to see how it performs. Now, I ask, can you add an appropriate
+category to the following
+
+06:06.980 --> 06:14.180
+expenses? For example, Spotify as entertainment, beta photos as sports, and here
+I just give a list
+
+06:14.180 --> 06:19.700
+of transactions as shown in my bank statement. So let's see what it comes up
+with.
+
+06:19.760 --> 06:27.380
+Okay, so it replies with three categories. It's roughly correct. I would say
+it's reasonable,
+
+06:27.380 --> 06:34.460
+but it missed one transaction here, which is Bistro Bar Amsterdam. And also, it
+doesn't really reply
+
+06:34.460 --> 06:42.020
+in the format that I wanted. So the transaction together with the category
+separate by this
+
+06:42.020 --> 06:48.500
+hyphen. So I feel like Maestro, it doesn't really do the task as I expected it
+to do. So let's try
+
+06:49.760 --> 06:57.800
+Lama2. Let's exit this model and we will Olama run Lama2. But if you haven't
+installed Lama2,
+
+06:57.800 --> 07:05.120
+you can do Olamapool Lama2 and the Lama2 model will be installed locally in your
+computer.
+
+07:05.120 --> 07:10.400
+Now, we can start using Lama2 model. Now, let's ask the same question as we
+asked before. And
+
+07:10.400 --> 07:16.820
+it does it pretty well. It gives me a list of the expenses together with the
+categories. Although,
+
+07:16.820 --> 07:19.700
+the first two are my own example, but it does
+
+07:19.760 --> 07:25.680
+give me the correct format for the answers and so each of these transactions has
+a category
+
+07:25.680 --> 07:30.800
+added next to it separated by a hyphen so i'm pretty happy with llama2 and it
+actually
+
+07:30.800 --> 07:36.640
+understands the task although if you keep asking the same question to these
+language models multiple
+
+07:36.640 --> 07:41.760
+times these models may come back with different answers each time and so there's
+definitely a
+
+07:41.760 --> 07:47.440
+certain level of randomness in the responses if you want to take a step further
+to customize these
+
+07:47.440 --> 07:53.360
+language models to your specific use case you can do that by specifying a model
+file and a
+
+07:53.360 --> 07:59.760
+model file is basically the blueprint to create and share language models with
+olama so you can
+
+07:59.760 --> 08:06.080
+specify the base model you want to use and also you can set parameters like the
+temperature for
+
+08:06.080 --> 08:11.840
+the model now let's go back to the terminal and exit this model let's clear the
+terminal
+
+08:11.840 --> 08:17.280
+and i'll go ahead and create a model file with nano and i'll name this model
+file as
+
+08:17.440 --> 08:25.360
+expense analyzer and we'll go into the text editor okay let's first specify the
+base model as
+
+08:25.360 --> 08:32.480
+llama2 so from llama2 and next we'll set the temperature parameter as let's say
+0.8 temperature
+
+08:32.480 --> 08:38.640
+closer to 1 is more creative and the lower the temperature the more coherent and
+less creative
+
+08:38.640 --> 08:45.200
+the model behaves and further let's also specify the custom system message so my
+system prompt is
+
+08:45.200 --> 08:47.360
+quite basic if you're a financial assistant
+
+08:47.680 --> 08:54.960
+you have classified expense and income from buying transactions okay let's save
+this file by ctrl x
+
+08:54.960 --> 09:02.400
+yes enter now that we have the model file set up we can use this model file to
+create a custom model
+
+09:02.400 --> 09:10.160
+we can do this by olama create we specify the custom model name dash f and then
+specify the name
+
+09:10.160 --> 09:16.800
+of the model file so that is pens analyzer so now if we run this comment
+basically what it's doing
+
+09:17.440 --> 09:23.440
+is that olama will pass through this text file this model file expands analyzer
+passing through
+
+09:23.440 --> 09:28.640
+all the parameters and the custom message that we put in and then customize all
+these different
+
+09:28.640 --> 09:34.800
+layers in the base model which is lama2 and now we can start using this custom
+lama2 model that
+
+09:34.800 --> 09:43.280
+we just created by olama run expense analyzer i also forgot to mention that we
+can also now
+
+09:43.280 --> 09:43.600
+uh look at the model list available by olama list and you can also muito les
+
+09:43.600 --> 09:44.720
+take a look at the model list available by olama list and you can also also find
+out the base model
+
+09:44.720 --> 09:47.360
+that we all엔 used to make custom models
+
+09:47.440 --> 09:53.680
+also see that now we have the expense analyzer llama2 model available in our
+list now interacting
+
+09:53.680 --> 09:58.800
+with these local elements through the terminal is also fine but i find a more
+convenient way to
+
+09:58.800 --> 10:03.760
+interact with these models is through the python environment and more
+specifically through jupyter
+
+10:03.760 --> 10:09.520
+notebook now let's create a project folder and i'll move my bank transaction
+data in inside this
+
+10:09.520 --> 10:15.440
+folder and i'll just start up visual studio code from this folder in order to
+access these language
+
+10:15.440 --> 10:21.280
+models from olama with python we need to install the langchaincommunity library
+and so if you
+
+10:21.280 --> 10:26.560
+haven't done so we can use pip install and now we can access all the language
+models we have
+
+10:26.560 --> 10:33.040
+installed through olama by specifying the name of the model with this olama
+method for example the
+
+10:33.040 --> 10:39.120
+first man on the moon was dot dot dot and after a few seconds we get back the
+completion of this
+
+10:39.120 --> 10:45.360
+sentence so that means our model is up and running that is a good sign now let's
+move on to reading
+
+10:45.360 --> 10:45.440
+that milky way of thinking so that means our model is up and running that is a
+good sign now let's move on to reading that austin will 19606 now let's move on
+to reading that austin will 19606
+
+10:45.440 --> 10:51.280
+transaction data that we have and take a look at it you can see that here in the
+name description
+
+10:51.280 --> 10:58.080
+column we have all the transactions that we want to classify we have the
+indicator whether it is
+
+10:58.080 --> 11:05.760
+expense or income and we also have the amount in euros of these transactions now
+i have anonymized
+
+11:05.760 --> 11:11.760
+a lot of these transactions so this is not my real income and real expenses now
+we need to find a way
+
+11:11.760 --> 11:18.960
+to insert all these different expenses into our prompt right let's get all the
+unique transactions
+
+11:18.960 --> 11:25.040
+from our data you can see that this is quite a big list and this may exceed the
+token limit that the
+
+11:25.040 --> 11:30.960
+large language model has so if we try to insert this huge list into our prompt
+there's a risk
+
+11:30.960 --> 11:36.000
+that the model comes back with a completely nonsensical answer or incomplete
+answer because
+
+11:36.000 --> 11:41.680
+your question is already taking too many tokens so after many trial and errors i
+found that around
+
+11:41.680 --> 11:41.760
+two and a half minutes or so we have a lot of questions that we can answer and
+we can't answer
+
+11:41.760 --> 11:47.600
+30 transactions would give the most optimal response so here you can see an
+example response
+
+11:47.600 --> 11:53.600
+with 30 transactions so with this approach we are going to create a for loop to
+basically loop
+
+11:53.600 --> 12:00.080
+through all the 300 transactions here in our bank statement and we take in 30
+transactions at a time
+
+12:00.080 --> 12:06.640
+and so a handy way to handle this for loop is to get an index list so this index
+list is basically
+
+12:06.640 --> 12:13.040
+giving us a sequence of all the index from zero until the last item hopping 30
+items at a time
+
+12:13.040 --> 12:19.120
+and with this we can also conveniently handle the last group as well which might
+not be 30 items but
+
+12:19.120 --> 12:24.240
+maybe less now let's initialize a data frame to store all the unique
+transactions and their
+
+12:24.240 --> 12:30.160
+responding categories and with this for loop our call a custom function that i
+created and this
+
+12:30.160 --> 12:35.600
+function takes the names of the transactions or the lm that we are using and the
+only thing we
+
+12:35.600 --> 12:36.620
+need to do is to
+
+12:36.640 --> 12:42.840
+properly parse the output from the language model into a format that we can work
+with. So if we look
+
+12:42.840 --> 12:48.440
+at this output, we definitely only want to keep these lines, right? And we don't
+want the rest
+
+12:48.440 --> 12:53.340
+like certainly here's the categories. But we don't need to worry about this for
+now because at the
+
+12:53.340 --> 12:59.640
+end, we can always remove all the rows that have categories being none. The
+complication is that
+
+12:59.640 --> 13:05.380
+sometimes the language model might use a different format for the answer. So we
+had to use some kind
+
+13:05.380 --> 13:11.100
+of like validator for the output in order to make sure that the output actually
+is in the format we
+
+13:11.100 --> 13:17.440
+want. For example, in the response, we have the hyphen in between the
+transaction and the category.
+
+13:17.740 --> 13:23.320
+So one handy Python library for this is Pydantic. So the idea is that after
+getting the response,
+
+13:23.460 --> 13:29.160
+we will run it through a validation check. If the validation fails, we will
+rerun the language model
+
+13:29.160 --> 13:34.200
+to get another response until we get the right output. If you're interested in
+how to do this
+
+13:34.200 --> 13:35.360
+with Pydantic, you can click on the link in the description below. And if you're
+interested in
+
+13:35.360 --> 13:41.000
+the code in the GitHub repo, link in description. Okay, now let me run this for
+loop and also print
+
+13:41.000 --> 13:46.200
+out the transaction names and also the output by the models. I also noticed that
+when I'm running
+
+13:46.200 --> 13:51.720
+this for loop, for some reason, if I want to stop it, I really cannot stop it.
+So if for some reason
+
+13:51.720 --> 13:57.840
+we want to interrupt this process, we can go to the terminal and do pqolama. And
+so in the back
+
+13:57.840 --> 14:02.920
+end, all the olama processes will be stopped. Okay, after a while, if everything
+goes well,
+
+14:02.920 --> 14:05.160
+we should get back the data frame.
+
+14:05.360 --> 14:09.820
+Okay, so now we're done with all the transactions with the categories that Lama2
+has categorized for
+
+14:09.820 --> 14:14.880
+us. I'll just save the CSV here. Now let's open the CSV file and quickly look at
+the output.
+
+14:15.120 --> 14:20.980
+Overall, I'm quite happy with the categories that Lama2 came up with. However,
+some categories
+
+14:20.980 --> 14:26.440
+may be quite similar to each other, but not completely the same. And I want to
+group them
+
+14:26.440 --> 14:31.760
+together. So I just quickly group these categories by hand. Now the last step is
+to clean up a little
+
+14:31.760 --> 14:35.340
+bit this data frame. And then we can go ahead and merge this data frame. And
+then we can go ahead and
+
+14:35.360 --> 14:40.840
+my data frame into the main transaction data frame using the transaction name.
+So after this,
+
+14:40.840 --> 14:47.000
+we should have a data frame with all information, the transactions and the
+categories. So that was
+
+14:47.000 --> 14:51.960
+exciting. But the next part of the project is even more exciting. We create a
+personal finance
+
+14:51.960 --> 14:57.720
+dashboard based on the transaction data that we just obtained. The idea for this
+dashboard is we
+
+14:57.720 --> 15:04.360
+want to show the income breakdown and the expense breakdown for both years 2022
+and 2023. And at the
+
+15:04.360 --> 15:11.320
+bottom i also want to show how much i earn and how much i spend per month in
+each year so for creating
+
+15:11.320 --> 15:17.720
+interactive visualization i love using plotly express for the creation of the
+dashboard we also
+
+15:17.720 --> 15:24.760
+use panel panel is an awesome library for creating data dashboard very easily
+and very fast now let's
+
+15:24.760 --> 15:29.880
+read in our transaction data and for the income i don't have a lot of income
+sources so i can just
+
+15:29.880 --> 15:36.200
+use the name of the income as the category firstly we want to make the pie chart
+to show the income
+
+15:36.200 --> 15:42.520
+and expense breakdown i create a function here to basically take the data and
+select for the year
+
+15:42.520 --> 15:48.840
+and whether we are looking at the expense or the income in the data set and
+similarly i also create
+
+15:48.840 --> 15:56.760
+a function to make bar charts that basically gives us a histogram of the income
+or expense
+
+15:56.760 --> 15:59.720
+per month over the year and you can see that it's super nice
+
+15:59.880 --> 16:05.080
+with plotly express that you can also hover on the different sections on the
+graph and see the
+
+16:05.080 --> 16:10.840
+data label now we're almost done we just need to combine and organize all these
+charts on our
+
+16:10.840 --> 16:17.880
+dashboard so here just create a panel layout with the tabs which consists of two
+tabs we have the
+
+16:17.880 --> 16:26.200
+2022 for 2023 tab we have exactly the same charts and graphs but for 2023 data
+and to show all this
+
+16:26.200 --> 16:29.720
+nicely on the dashboard we will use a template from
+
+16:29.880 --> 16:34.840
+our dashboard which is called fastlist template we can specify the header of our
+dashboard
+
+16:34.840 --> 16:41.560
+we have the sidebar which is some information and also you can put in different
+elements or pictures
+
+16:41.560 --> 16:48.040
+etc and in the main here we will put in the tabs that we just created and if we
+do template show
+
+16:48.040 --> 16:54.120
+we can see that this is our dashboard and here's my income and expense breakdown
+and here is how
+
+16:54.120 --> 16:59.560
+much i earned and how much i spent per month in each year you can see that i do
+
+16:59.880 --> 17:06.280
+a little bit more in 2022 than in 2023 which is not really a good sign but if
+you're into personal
+
+17:06.280 --> 17:11.480
+finance and things like that you may notice that this overview is probably not
+complete because we
+
+17:11.480 --> 17:17.880
+also have assets so if you transfer your money to an investment account or if
+you pay the mortgage
+
+17:17.880 --> 17:23.880
+towards your house then part of that money is also your asset as well and not
+only your expense
+
+17:23.880 --> 17:29.560
+although as you can see i can't retire anytime soon i hope this inspires you to
+do your own
+
+17:29.880 --> 17:35.320
+projects and experiment with open source language models i think in the future
+it will be a norm for
+
+17:35.320 --> 17:41.880
+us to be able to use and run large language models locally on laptops and other
+personal devices if
+
+17:41.880 --> 17:46.600
+you enjoyed this project also check out other data science projects on my
+channel thank you for
+
+17:46.600 --> 17:50.680
+watching bye
+
